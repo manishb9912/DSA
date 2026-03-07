@@ -4,7 +4,7 @@ Data Structures &amp; Algorithm practice repository. Focused on coding interview
 # Objetives
 - Strengthen core DSA concepts
 - Prepare for Product based company interviews
-
+- Prepare for technical interviews
 
 
 # Topics Covered
