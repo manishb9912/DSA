@@ -27,4 +27,4 @@ Data Structures &amp; Algorithm practice repository. Focused on coding interview
 - IDE: IntelliJ, VS Code
 
 # Connect with me
-If you are also preparing for coding interviews, feel free to fork, star and follow along.
+If you are also preparing for coding interviews, feel free to fork, star and follow along. Let's grow together!
