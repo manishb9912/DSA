@@ -6,7 +6,7 @@ Data Structures &amp; Algorithm practice repository. Focused on coding interview
 - Build consistency in coding
 - Prepare for Product based company interviews
 - Prepare for technical interviews
-
+- Problem solving
 
 # Topics Covered
 - Arrays
