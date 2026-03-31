@@ -1,10 +1,10 @@
 public class Main {
-    public static void main(String[] args) {
-        //
-        Cookie cookieOne = new Cookie("green");
-        Cookie cookieTwo = new Cookie("Blue");
+    int x = 5;
 
-        System.out.println(cookieOne.getColor());
-        System.out.println(cookieTwo.getColor());
+    public static void main(String[] args) {
+        Car myCar = new Car("Volvo", 9000000, "Graphite Grey");
+        System.out.println(myCar.name + " " + myCar.price + " " + myCar.color);
+        myCar.speed(200);
+        myCar.fullThrottle();
     }
 }
