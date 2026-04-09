@@ -1,19 +1,8 @@
-public class Car {
-    String name;
-    int price;
-    String color;
+// inheritance example
+class Car extends Vehicle {
+    protected String modelName = "Sierra";
 
-    public Car(String carName, int carPrice, String carColor) {
-        name = carName;
-        price = carPrice;
-        color = carColor;
-    }
-
-    public void fullThrottle() {
-        System.out.println("The car is in full throttle");
-    }
-
-    public void speed(int maxSpeed) {
-        System.out.println("The top speed of the car: " + maxSpeed);
+    public void setModelName(String modelName) {
+        this.modelName = modelName;
     }
 }
