@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,17 +8,24 @@ public class Main {
        // System.out.println(myCar.modelName);
 
        // Polymorphism example 1
-        Panther newPanther1 = new Panther();
-        Owl newOwl1 = new Owl();
-
-        newPanther1.animalSound();
-        newOwl1.animalSound();
+//        Panther newPanther1 = new Panther();
+//        Owl newOwl1 = new Owl();
+//
+//        newPanther1.animalSound();
+//        newOwl1.animalSound();
 
         // Polymorphism example 2
-        Animal newPanther2 = new Panther();
-        Animal newOwl2 = new Owl();
+//        Animal newPanther2 = new Panther();
+//        Animal newOwl2 = new Owl();
+//
+//        newPanther2.animalSound();
+//        newOwl2.animalSound();
 
-        newPanther2.animalSound();
-        newOwl2.animalSound();
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        numbers.add(10);
+        numbers.add(15);
+        numbers.add(18);
+        numbers.add(22);
+        numbers.forEach(num -> {System.out.println(num);});
     }
 }
