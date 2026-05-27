@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dab7cea9-bcf1-4034-a5c2-2350b2ea1062" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Owl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Owl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Panther.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Panther.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +70,19 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manis\IdeaProjects\DSA-git\datastructures" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DSA-git" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
