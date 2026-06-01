@@ -1,11 +1,12 @@
+package linkedList;
+
 public class Main {
     public static void main(String[] args) {
-        LinkedList newLinkedList = new LinkedList(4);
+        LinkedList newLinkedList = new LinkedList(0);
+        newLinkedList.append(1);
         newLinkedList.append(2);
-        //newLinkedList.getHead();
-        //newLinkedList.getTail();
-        //newLinkedList.getLength();
-        newLinkedList.prepand(5);
+        newLinkedList.append(3);
+        newLinkedList.reverse();
         newLinkedList.printList();
     }
 }
