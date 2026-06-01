@@ -7,6 +7,8 @@ public class Main {
         newLinkedList.append(2);
         newLinkedList.append(3);
         newLinkedList.append(4);
+        newLinkedList.append(4);
+        newLinkedList.append(4);
         newLinkedList.remove(2);
         newLinkedList.printList();
     }
