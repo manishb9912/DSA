@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dab7cea9-bcf1-4034-a5c2-2350b2ea1062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/doublyLinkedList/DoublyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/doublyLinkedList/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/doublyLinkedList/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/linkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/linkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/linkedList/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorts/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorts/bubblesort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,7 @@
       <recent name="C:\Users\manis\IdeaProjects\DSA-git\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.sorts.bubblesort.BubbleSort" />
       <module name="DSA-git" />
@@ -104,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorts.selectionsort.SelectionSort" />
+      <module name="DSA-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorts.selectionsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="datastructure.doublyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.doublyLinkedList.Main" />
       <module name="DSA-git" />
@@ -123,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.datastructure.doublyLinkedList.Main" />
         <item itemvalue="Application.Main" />
