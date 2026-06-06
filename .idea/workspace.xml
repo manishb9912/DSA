@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dab7cea9-bcf1-4034-a5c2-2350b2ea1062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/doublyLinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedList/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/doublyLinkedList/DoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/doublyLinkedList/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/doublyLinkedList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/linkedList/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/linkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/DSA-git/linkedList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sorts/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorts/bubblesort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,31 +52,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.doublyLinkedList.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/manis/IdeaProjects/DSA-git/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BubbleSort.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.doublyLinkedList.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/manis/IdeaProjects/DSA-git/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\manis\IdeaProjects\DSA-git\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.datastructure.doublyLinkedList.Main">
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorts.bubblesort.BubbleSort" />
+      <module name="DSA-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorts.bubblesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.linkedList.Main" />
       <module name="DSA-git" />
@@ -109,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.datastructure.doublyLinkedList.Main" />
         <item itemvalue="Application.Main" />
       </list>
