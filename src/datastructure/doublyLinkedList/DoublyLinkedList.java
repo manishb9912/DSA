@@ -1,4 +1,4 @@
-package doublyLinkedList;
+package datastructure.doublyLinkedList;
 
 public class DoublyLinkedList {
     private Node head;
