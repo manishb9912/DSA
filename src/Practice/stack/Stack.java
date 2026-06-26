@@ -33,5 +33,11 @@ public class Stack<T> {
     public void push(T value) {
         stackList.add(value);
     }
-
+    public T pop() {
+        if(isEmpty()) {
+            return null;
+        } else {
+         return stackList.remove(stackList.size() - 1);
+        }
+    }
 }
