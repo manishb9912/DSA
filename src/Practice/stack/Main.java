@@ -1,5 +1,15 @@
 public class Main {
-
+    public static String reverseString(String string) {
+        Stack<Character> stack = new Stack<>();
+        String reversedString = "";
+        for(char c: string.toCharArray()){
+            stack.push(c);
+        }
+        while(!stack.isEmpty()){
+            reversedString+=stack.pop();
+        }
+        return reversedString;
+    }
     public static void main(String[] args) {
         Stack<Integer> stack;
 
@@ -95,35 +105,12 @@ public class Main {
         System.out.println("Size: " + stack.size());
         System.out.println();
 
-        /*
-            EXPECTED OUTPUT:
-            ----------------
-            Test 1: Push Single Element
-            Expected Stack (top to bottom): 10
-            Actual Stack:
-            10
-            Peek: 10
-            Size: 1
+        // reverse string
+        System.out.println("Actual: '" + reverseString("hello") + "'");
+        System.out.println();
 
-            Test 2: Push Multiple Elements
-            Expected Stack (top to bottom): 3, 2, 1
-            Actual Stack:
-            3
-            2
-            1
-            Peek: 3
-            Size: 3
-
-            Test 3: Peek Does Not Remove
-            Peek before: 6
-            Size after peek (expected 2): 2
-
-            Test 4: Peek on Empty Stack
-            Expected Peek: null
-            Peek: null
-            Size: 0
-        */
-
+        System.out.println("Actual: '" + reverseString("abc !") + "'");
+        System.out.println();
     }
 
 }
