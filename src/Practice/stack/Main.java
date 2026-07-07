@@ -126,13 +126,33 @@ public class Main {
         System.out.println("Actual: '" + reverseString("abc !") + "'");
         System.out.println();
 
+       //Parentheses Test
+        // Test 1
+        System.out.println("Test 2: Single Pair");
+        System.out.println("Input: '()'");
+        System.out.println("Expected: true");
         System.out.println("Actual: " + isBalancedParentheses("()"));
+        System.out.println();
 
-        // Test 3
+        // Test 2
         System.out.println("Test 3: Missing Open");
         System.out.println("Input: ')'");
         System.out.println("Expected: false");
         System.out.println("Actual: " + isBalancedParentheses(")"));
+        System.out.println();
+
+        // Test 3
+        System.out.println("Test 4: Missing Close");
+        System.out.println("Input: '('");
+        System.out.println("Expected: false");
+        System.out.println("Actual: " + isBalancedParentheses("("));
+        System.out.println();
+
+        // Test 4
+        System.out.println("Test 5: Multiple Pairs");
+        System.out.println("Input: '()()'");
+        System.out.println("Expected: true");
+        System.out.println("Actual: " + isBalancedParentheses("()()"));
         System.out.println();
     }
 
