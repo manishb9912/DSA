@@ -10,6 +10,20 @@ public class Main {
         }
         return reversedString;
     }
+    public static boolean isBalancedParentheses(String parentheses) {
+        Stack<Character> stack = new Stack<>();
+
+        for(char p: parentheses.toCharArray()) {
+            if(p == '(') {
+                stack.push(p);
+            } else if(p == ')') {
+                if(stack.isEmpty() || stack.pop() != '(') {
+                    return false;
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
     public static void main(String[] args) {
         Stack<Integer> stack;
 
@@ -110,6 +124,15 @@ public class Main {
         System.out.println();
 
         System.out.println("Actual: '" + reverseString("abc !") + "'");
+        System.out.println();
+
+        System.out.println("Actual: " + isBalancedParentheses("()"));
+
+        // Test 3
+        System.out.println("Test 3: Missing Open");
+        System.out.println("Input: ')'");
+        System.out.println("Expected: false");
+        System.out.println("Actual: " + isBalancedParentheses(")"));
         System.out.println();
     }
 
