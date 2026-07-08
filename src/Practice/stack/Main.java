@@ -24,6 +24,20 @@ public class Main {
         }
         return stack.isEmpty();
     }
+    public static void sortStack(Stack<Integer> inputStack) {
+        Stack<Integer> additionalStack = new Stack<>();
+        while(!inputStack.isEmpty()) {
+            int temp = inputStack.pop();
+            while(!additionalStack.isEmpty() && additionalStack.peek() > temp) {
+                inputStack.push(additionalStack.pop());
+            }
+            additionalStack.push(temp);
+        }
+        while(!additionalStack.isEmpty()){
+            inputStack.push(additionalStack.pop());
+        }
+    }
+
     public static void main(String[] args) {
         Stack<Integer> stack;
 
@@ -154,7 +168,42 @@ public class Main {
         System.out.println("Expected: true");
         System.out.println("Actual: " + isBalancedParentheses("()()"));
         System.out.println();
-    }
 
+        // Test 3: Unsorted stack
+        System.out.println("Test 3: Unsorted Stack");
+        stack = new Stack<>();
+        stack.push(3);
+        stack.push(1);
+        stack.push(4);
+        stack.push(2);
+        sortStack(stack);
+        System.out.println("Expected (top to bottom): 1, 2, 3, 4");
+        stack.printStack();
+        System.out.println();
+
+        // Test 4: Already sorted
+        System.out.println("Test 4: Already Sorted Stack");
+        stack = new Stack<>();
+        stack.push(4);
+        stack.push(3);
+        stack.push(2);
+        stack.push(1);
+        sortStack(stack);
+        System.out.println("Expected (top to bottom): 1, 2, 3, 4");
+        stack.printStack();
+        System.out.println();
+
+        // Test 5: Reverse sorted
+        System.out.println("Test 5: Reverse Sorted Stack");
+        stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        sortStack(stack);
+        System.out.println("Expected (top to bottom): 1, 2, 3, 4");
+        stack.printStack();
+        System.out.println();
+    }
 }
 
