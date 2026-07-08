@@ -22,6 +22,14 @@ public class MyQueue {
 
     }
 
+    public Integer dequeue() {
+        if(isEmpty()) {
+            return null;
+        } else {
+            return stack1.pop();
+        }
+    }
+
     public int peek() {
         return stack1.peek();
     }

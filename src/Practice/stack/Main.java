@@ -242,6 +242,36 @@ public class Main {
         System.out.println("Front after adding 8: " + queue.peek());
         System.out.println();
 
+        // Test 1: Dequeue single element
+        System.out.println("Test 1: Dequeue Single Element");
+        queue = new MyQueue();
+        queue.enqueue(10);
+        System.out.println("Dequeued: " + queue.dequeue());
+        System.out.println("Queue is empty? " + queue.isEmpty());
+        System.out.println();
+
+        // Test 2: Dequeue multiple elements in FIFO order
+        System.out.println("Test 2: Dequeue Multiple Elements (FIFO)");
+        queue = new MyQueue();
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        System.out.println("Dequeued: " + queue.dequeue());
+        System.out.println("Dequeued: " + queue.dequeue());
+        System.out.println("Dequeued: " + queue.dequeue());
+        System.out.println("Queue is empty? " + queue.isEmpty());
+        System.out.println();
+
+        // Test 3: Peek after dequeue
+        System.out.println("Test 3: Peek After Dequeue");
+        queue = new MyQueue();
+        queue.enqueue(5);
+        queue.enqueue(6);
+        queue.enqueue(7);
+        System.out.println("Dequeued: " + queue.dequeue());
+        System.out.println("Peek after dequeue: " + queue.peek());
+        System.out.println("Queue is empty? " + queue.isEmpty());
+        System.out.println();
     }
 }
 
